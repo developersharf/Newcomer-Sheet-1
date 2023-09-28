@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main()
+ 
+{   
+    double X, Y, summation, multiplication, subtraction;
+ 
+    
+    scanf("%lf%lf", &X, &Y);
+    
+    summation = X + Y;
+    multiplication = X * Y;
+    subtraction = X - Y;
+    
+    printf("%.0lf + %.0lf = %.0lf\n", X, Y, summation);
+    printf("%.0lf * %.0lf = %.0lf\n", X, Y, multiplication);
+    printf("%.0lf - %.0lf = %.0lf\n", X, Y, subtraction);
+    
+    return 0;
+ 
+}
