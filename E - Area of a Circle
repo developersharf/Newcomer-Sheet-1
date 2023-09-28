@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main()
+ 
+{   
+    double π = 3.141592653, R, Area;
+ 
+    
+    scanf("%lf", &R);
+    
+    
+    Area = π*R*R;
+    
+    printf("%.9lf\n", Area);
+    
+    
+    return 0;
+ 
+}
