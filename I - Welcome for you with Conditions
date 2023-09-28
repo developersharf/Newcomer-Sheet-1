@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+    double A, B;
+    scanf("%lf%lf", &A, &B);
+   
+   if (A>=B && 0<=A && B<=100)
+    {
+        printf("Yes\n");
+    }
+    else printf("No\n");
+    
+    return 0;
+}
