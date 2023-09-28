@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main()
+ 
+{   
+    long long int N, M, Z;
+ 
+    
+    scanf("%lld%lld", &N, &M);
+    
+    
+    Z = N % 10 + M % 10;
+    
+    
+    
+    printf("%lld\n", Z);
+    
+     
+    return 0;
+ 
+}
