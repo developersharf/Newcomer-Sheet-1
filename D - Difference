@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+int main()
+ 
+{   
+    double A, B, C, D, X;
+ 
+    
+    scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+    
+    X = (A * B) - (C * D);
+    
+    printf("Difference = %.0lf\n", X);
+    
+    
+    return 0;
+ 
+}
