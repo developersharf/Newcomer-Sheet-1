@@ -1,0 +1,16 @@
+ 
+#include <stdio.h>
+ 
+int main()
+{
+    char S[200];
+ 
+ 
+// Get and save the text
+    scanf("%s", S);
+ 
+// Output the text
+    printf("Hello, %s", S);
+    
+    return 0;
+}
